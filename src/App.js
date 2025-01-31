@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="main-container">
-      <h1>Workouts for diffrent location</h1>
+      <h1>Workouts for different location</h1>
       <SettingSelector onSettingChange={handleSettingChange} />
       {selectedSetting && (
         <WorkoutList
